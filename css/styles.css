@@ -3,6 +3,8 @@
     --simple-color:#000000;
     --secondary-color:#757575;
     --mainsection-clor:#2F303A;
+    --item-color:#212121;
+    --background-color:#2F303A;
 
 }
 @font-face {
@@ -71,7 +73,7 @@ a {
 
 .header-item a{
 
-color:#212121;
+color:var(--item-color);
 font-family: "Roboto-medium";
 font-weight: 500;
 font-size: 14px;
@@ -82,13 +84,13 @@ text-decoration: none;
 }
 
 .header-item  a:hover{
-    color:#2196F3;
+    color:var(--primary-color);
 }
 
 
 .link{
     text-decoration: none;
-    color:#000000;
+    color:var(--secondary-color);
     list-style: none;
 }
 
@@ -108,7 +110,7 @@ text-decoration: none;
 }
 
 .header-mal{
-    color: #212121;
+    color:var(--secondary-color);
 }
 
 
@@ -125,17 +127,17 @@ text-decoration: none;
     
 }
 .header-contact a:hover{
-    color: #2196F3;
+    color:var(--primary-color);
 }
 
 
 .header-tel{ 
     text-decoration: none;
-    color: var(--secondary-color);
+    color:var(--secondary-color)
 }
 
 .main-button:hover{
-    background-color: #2196F3;
+    background-color:var(--primary-color);
     transition: all .3s ease;
     font-family: "Roboto-bolt";
     font-weight: 700;
@@ -225,7 +227,7 @@ text-decoration: none;
 }
 
 .footer{
-    background-color:#2F303A;
+    background-color:var(--background-color);
     text-decoration: none;
 }
 .color-footer{
@@ -233,7 +235,7 @@ text-decoration: none;
     
 }
 .type-footer{
-    color: #2196F3;
+    color:var(--primary-color);
     list-style: none;
     text-decoration: none;
     font-family: "Ralewey";
@@ -264,7 +266,7 @@ line-height: 1.7;
 }
 
 .footer-item a:hover{
-    color:#2196F3;
+    color:var(--primary-color);
 }
 .footer-link{
     text-decoration: none;
