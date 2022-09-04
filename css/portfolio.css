@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: "Ralewey" sans-serif;
-  src: url(../Fonts/Raleway/static/Raleway-Bold.ttf);
+  src:url(../Fonts/Raleway/static/Raleway-Bold.ttf);
 }
 @font-face {
   font-family: "Roboto-black" sans-serif;
@@ -70,7 +70,7 @@ a {
   font-family: "Roboto-medium";
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1x;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -186,7 +186,7 @@ a {
 }
 
 .footer-item a:hover {
-  color: #2196f3;
+  color:var(--primary-color);
 }
 .footer-link {
   text-decoration: none;

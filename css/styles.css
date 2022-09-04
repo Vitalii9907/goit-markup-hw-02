@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 :root {
   --primary-color: #2196f3;
   --simple-color: #000000;
@@ -260,27 +260,4 @@ a {
   color: rgba(255, 255, 255, 0.6);
 }
 =======
-:root{
 
-}
-
-
-.link{
-    color: 2196F3;
-}
-.hero{
-    color:;
-}
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden; }
->>>>>>> c779c55493d8f7d26f4443fbadc0ba19eb6647c8
