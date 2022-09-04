@@ -36,12 +36,11 @@ a {
   color: inherit;
 }
 
-.body {
-  background-color: #ffffff;
+body {
+ @font-family: "Roboto", sans-serif; 
 }
 
-.header {
-}
+
 .header-nav {
 }
 .color-logo {
@@ -57,17 +56,17 @@ a {
   color: var(--primary-color);
   text-decoration: none;
   list-style: none;
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Ralewey";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
+
 .header-item a {
   color: var(--item-color);
-  font-family: "Roboto-medium";
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -87,7 +86,7 @@ a {
 
 .header-list {
   list-style-type: none;
-  font-family: "Roboto-medium";
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -107,7 +106,7 @@ a {
   text-decoration: none;
   list-style: none;
   color: var(--secondary-color);
-  font-family: "Roboto-medium";
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -120,7 +119,7 @@ a {
 .main-button:hover {
   background-color: var(--primary-color);
   transition: all 0.3s ease;
-  font-family: "Roboto-medium";
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -135,14 +134,14 @@ a {
 .header-list {
 }
 .title-item {
-  font-family: "Roboto-bold";
+  
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .title-cat {
-  font-family: "Roboto-medium";
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
@@ -170,7 +169,7 @@ a {
   font-style: normal;
   text-decoration: none;
   list-style: none;
-  font-family: "Roboto-regular";
+  
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -178,7 +177,7 @@ a {
 }
 .footer-item {
   color: rgba(255, 255, 255, 0.6);
-  font-family: "Roboto";
+  
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -199,7 +198,7 @@ a {
   text-decoration: none;
   font-style: normal;
   list-style: none;
-  font-family: "Roboto-regular";
+  
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
