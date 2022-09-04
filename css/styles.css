@@ -6,18 +6,26 @@
   --mainsection-clor: #2f303a;
   --item-color: #212121;
   --background-color: #2f303a;
+  --whole-white-color:#ffffff;
+  --fotter-color: rgba(255, 255, 255, 0.6);
 }
 
 
 
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
+
 
 body {
   @font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color:var(--secondary-color);
+background-color:var(--whole-white-color);
+
+
 }
 
 .header {
@@ -75,6 +83,7 @@ body {
 
 .header-mal {
   color: var(--secondary-color);
+  text-decoration: none;
 }
 
 .header-contact {
@@ -105,15 +114,15 @@ body {
   line-height: 1.9;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: #ffffff;
+  color:var(--whole-white-color);
 }
 
 .button-text {
-  color: #ffffff;
+  color:var(--whole-white-color);
 }
 .main-section {
   background-color: var(--mainsection-clor);
-  color: #ffffff;
+  color:var(--whole-white-color);
 }
 
 .main-title {
@@ -131,7 +140,7 @@ body {
 }
 
 .hero-item {
-  
+  color:var(--item-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -149,14 +158,14 @@ body {
   line-height: 1.7;
 }
 .hero {
-  
+  color: var(--item-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
 }
 
 .hero-section {
-  
+  color: var(--item-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -186,7 +195,7 @@ body {
   text-decoration: none;
 }
 .color-footer {
-  color: #ffffff;
+  color:var(--whole-white-color);
 }
 .type-footer {
   color: var(--primary-color);
@@ -209,7 +218,7 @@ body {
   letter-spacing: 0.03em;
 }
 .footer-item {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--fotter-color);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -223,7 +232,7 @@ body {
 .footer-link {
   text-decoration: none;
   list-style-type: none;
-  color: #ffffff;
+  color:var(--whole-white-color);
 }
 
 .footer-mal,
@@ -236,7 +245,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color:var(--fotter-color);
 }
-=======
+
 

@@ -5,39 +5,24 @@
   --mainsection-clor: #2f303a;
   --item-color: #212121;
   --background-color: #2f303a;
-}
-@font-face {
-  font-family: "Ralewey" sans-serif;
-  src:url(../Fonts/Raleway/static/Raleway-Bold.ttf);
-}
-@font-face {
-  font-family: "Roboto-black" sans-serif;
-  src: url(../Fonts/Roboto/Roboto-Black.ttf);
-}
-@font-face {
-  font-family: Roboto-regular sans-serif;
-  src: url(../Fonts/Roboto/Roboto-Regular.ttf);
-}
-@font-face {
-  font-family: "Roboto-bold" sans-serif;
-  src: url(../Fonts/Roboto/Roboto-Bold.ttf);
-}
-@font-face {
-  font-family: " Roboto-medium" sans-serif;
-  src: url(../Fonts/Roboto/Roboto-Medium.ttf);
+  --whole-white-color:#ffffff;
+  --footer-color: rgba(255, 255, 255, 0.6);
+  
 }
 
-/*@font-family: 'Raleway', sans-serif;
 
-@font-family: 'Roboto', sans-serif;*/
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
 
-body {
+ body {
  @font-family: "Roboto", sans-serif; 
+ text-decoration: none;
+ color: inherit;
+ font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color:var(--item-color);
+
+
 }
 
 
@@ -80,7 +65,7 @@ body {
 
 .link {
   text-decoration: none;
-  color: #000000;
+  color:var(--simple-color);
   list-style: none;
 }
 
@@ -95,6 +80,7 @@ body {
 
 .header-mal {
   color: var(--item-color);
+  text-decoration: none;
 }
 
 .header-tel {
@@ -124,7 +110,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color:var(--whole-white-color);
 }
 
 .header-item {
@@ -141,7 +127,7 @@ body {
   letter-spacing: 0.06em;
 }
 .title-cat {
-  
+  color: var(--secondary-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
@@ -153,7 +139,7 @@ body {
   text-decoration: none;
 }
 .color-footer {
-  color: #ffffff;
+  color:var(--whole-white-color);
 }
 .type-footer {
   color: var(--primary-color);
@@ -176,7 +162,7 @@ body {
   letter-spacing: 0.03em;
 }
 .footer-item {
-  color: rgba(255, 255, 255, 0.6);
+  color:var(--footer-color);
   
   font-style: normal;
   font-weight: 400;
@@ -190,7 +176,7 @@ body {
 .footer-link {
   text-decoration: none;
   list-style-type: none;
-  color: #ffffff;
+  color:var(--whole-white-color);
 }
 
 .footer-mal,
@@ -203,5 +189,5 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color:var(--footer-color);
 }
