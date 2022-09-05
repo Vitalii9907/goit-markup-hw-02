@@ -7,18 +7,17 @@
   --background-color: #2f303a;
   --whole-white-color:#ffffff;
   --footer-color: rgba(255, 255, 255, 0.6);
-  
+  --focus-color:#ff0000;
+  --hero-bck-cloror:#F5F4FA;
 }
 
 
 
 
  body {
- @font-family: "Roboto", sans-serif; 
- text-decoration: none;
- color: inherit;
+ font-family: "Roboto", sans-serif; 
  font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 color:var(--item-color);
 
@@ -26,11 +25,10 @@ color:var(--item-color);
 }
 
 
-.header-nav {
-}
+
 .color-logo {
   color: var(--simple-color);
-  font-family: "Ralewey";
+  font-family: "Ralewey", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -41,7 +39,7 @@ color:var(--item-color);
   color: var(--primary-color);
   text-decoration: none;
   list-style: none;
-  font-family: "Ralewey";
+  font-family: "Ralewey", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -61,6 +59,9 @@ color:var(--item-color);
 
 .header-item a:hover {
   color: var(--primary-color);
+}
+.header-item a:focus{
+  color:var(--focus-color)
 }
 
 .link {
@@ -102,33 +103,66 @@ color:var(--item-color);
   color: var(--primary-color);
 }
 
+.header-contact a:focus{
+  color:var(--focus-color)
+}
+
 .main-button:hover {
   background-color: var(--primary-color);
-  transition: all 0.3s ease;
-  
+  transition: all 0.4s ease;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
   color:var(--whole-white-color);
+  cursor: pointer; 
 }
 
+.main-button:focus{
+  color: var(--focus-color);
+}
+
+
+
+.main-button{
+
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+border: 0;
+border-radius: 4px;
+padding: 6px 22px;
+margin: 0px 30px;
+color:var(--item-color);
+}
+
+.btn-group{
+  display: flex;
+}
+
+.main-section{
+  background-color: var(--hero-bck-cloror);
+}
+
+.button-item{
+  font-style: normal;
+  list-style: none;
+color:var(--item-color);
+}
 .header-item {
   list-style-type: none;
 }
 
-.header-list {
+itle-item {
+ font-weight: 700;
 }
-.title-item {
-  
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
+
 .title-cat {
   color: var(--secondary-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
@@ -145,7 +179,7 @@ color:var(--item-color);
   color: var(--primary-color);
   list-style: none;
   text-decoration: none;
-  font-family: "Ralewey";
+  font-family: "Ralewey", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -173,6 +207,11 @@ color:var(--item-color);
 .footer-item a:hover {
   color:var(--primary-color);
 }
+
+.footer-item a:focus{
+  color: var(--focus-color);
+}
+
 .footer-link {
   text-decoration: none;
   list-style-type: none;
