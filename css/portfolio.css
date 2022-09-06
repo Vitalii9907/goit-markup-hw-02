@@ -7,7 +7,7 @@
   --background-color: #2f303a;
   --whole-white-color:#ffffff;
   --footer-color: rgba(255, 255, 255, 0.6);
-  --focus-color:#ff0000;
+  --focus-color:#188CE8;
   --hero-bck-cloror:#F5F4FA;
 }
 
@@ -20,11 +20,11 @@
 line-height: 2;
 letter-spacing: 0.06em;
 color:var(--item-color);
-
-
 }
 
-
+.current{
+  color:var(--focus-color);
+}
 
 .color-logo {
   color: var(--simple-color);
@@ -71,8 +71,6 @@ color:var(--item-color);
 }
 
 .header-list {
-  list-style-type: none;
-  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -126,28 +124,20 @@ color:var(--item-color);
 
 
 .main-button{
-
-font-style: normal;
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
 text-align: center;
 letter-spacing: 0.03em;
-border: 0;
 border-radius: 4px;
-padding: 6px 22px;
-margin: 0px 30px;
 color:var(--item-color);
 }
 
-.btn-group{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .main-section{
-  background-color: var(--hero-bck-cloror);
+  background-color: var(--whole-white-color);
 }
 
 .button-item{
@@ -159,8 +149,8 @@ color:var(--item-color);
   list-style-type: none;
 }
 
-itle-item {
- font-weight: 700;
+.title-item {
+ color:var(--item-color);
 }
 
 .title-cat {
