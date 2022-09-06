@@ -125,7 +125,7 @@ background-color:var(--whole-white-color);
 
 
 .main-button{
-
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -138,7 +138,6 @@ border-radius: 4px;
 
 
 .btn_text{
-font-family:inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
