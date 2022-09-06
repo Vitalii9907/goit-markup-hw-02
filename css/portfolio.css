@@ -58,8 +58,8 @@ color:var(--item-color);
 .header-item a:hover {
   color: var(--primary-color);
 }
-.current a:active{
-  color: var(--focus-color);
+.header-link.current{
+  color:var(--primary-color);
 }
 .header-item a:focus{
   color:var(--focus-color)
