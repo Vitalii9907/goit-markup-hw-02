@@ -22,9 +22,7 @@ letter-spacing: 0.06em;
 color:var(--item-color);
 }
 
-.current{
-  color:var(--focus-color);
-}
+
 
 .color-logo {
   color: var(--simple-color);
@@ -60,9 +58,13 @@ color:var(--item-color);
 .header-item a:hover {
   color: var(--primary-color);
 }
+.current a:active{
+  color: var(--focus-color);
+}
 .header-item a:focus{
   color:var(--focus-color)
 }
+
 
 .link {
   text-decoration: none;

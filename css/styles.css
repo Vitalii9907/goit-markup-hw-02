@@ -27,9 +27,7 @@ color:var(--secondary-color);
 background-color:var(--whole-white-color);
 }
 
-.current{
-  color:var(--focus-color);
-}
+
 .color-logo {
   color: var(--simple-color);
   font-family: "Ralewey",sans-serif;
@@ -64,8 +62,9 @@ background-color:var(--whole-white-color);
   
   color: var(--primary-color);
 }
-
-
+.current a:active {
+  color:var(--focus-color);
+}
 .header-item a:focus{
   color: var(--focus-color);
 }
