@@ -180,6 +180,9 @@ color: var(--whole-white-color);
   list-style: none;
 }
 
+ .section {
+  background-color:var(--hero-bck-cloror);
+}
 
 .hero {
   color: var(--item-color);
@@ -187,7 +190,7 @@ color: var(--whole-white-color);
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  background-color:var(--hero-bck-cloror);
+  
   
 }
 
@@ -198,7 +201,7 @@ color: var(--whole-white-color);
   line-height: 1.2;
   text-decoration: none;
   text-align: center;
-  background-color: #F5F4FA;
+  
 }
 
 .hero-people {

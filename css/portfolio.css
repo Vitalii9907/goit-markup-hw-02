@@ -15,11 +15,12 @@
 
 
  body {
- font-family: "Roboto", sans-serif; 
- font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color:var(--item-color);
+ font-family: "Roboto", sans-serif;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color:var(--secondary-color);
+background-color:var(--whole-white-color);
 }
 
 
@@ -80,7 +81,7 @@ color:var(--item-color);
 }
 
 .header-mal {
-  color: var(--item-color);
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -106,6 +107,7 @@ color:var(--item-color);
 .header-contact a:focus{
   color:var(--focus-color)
 }
+
 
 .main-button:hover {
   background-color: var(--primary-color);
@@ -152,6 +154,10 @@ color:var(--item-color);
 }
 
 .title-item {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
  color:var(--item-color);
 }
 
@@ -159,8 +165,9 @@ color:var(--item-color);
   color: var(--secondary-color);
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
+  
 }
+
 
 .footer {
   background-color: var(--background-color);
