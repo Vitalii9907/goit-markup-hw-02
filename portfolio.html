@@ -11,44 +11,42 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css
+    ">
     <title>portfolio</title>
   </head>
   <body class="body">
-    <header>
-      <nav class="header-nav">
-        <a href="./index.html" class="header-logo">
-          Web<span class="color-logo">Studio</span></a
-        >
-
-        <ul class="header-list">
-          <li class="header-item">
-            <a href="./index.html" class="header-link">Студія</a>
+    
+      <header class="header">
+        <!--Nav menu-->
+      <nav class="header_nav">
+    
+      <a href="./index.html" class="header_logo">  Web<span class="color_logo">Studio</span></a>
+    
+      <ul class="header_list_nav">
+              <li class="header_item"><a href="/portfolio.html" class="header_link">Студія</a></li>
+              <li class="header_item"><a href="./index.html" class="header_link current">Портфоліо</a></li>
+              <li class="header_item"><a href="./portfolio.html" class="header_link">Контакти</a></li>
+            </ul>
+          </nav>
+    
+          <!-- Contacts-->
+    
+          <ul class="header_list">
+          <li class="header_contact">
+          <a href="mailto:info@devstudio.com" class="header_mal">info@devstudio.com</a></li>
+          <li class="header_contact">
+          <a href="tel:+380961111111" class="header_tel">+38 096 111 11 11</a>
           </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link current">Портфоліо</a>
-          </li>
-          <li class="header-item">
-            <a href="./index.html" class="header-link">Контакти</a>
-          </li>
-        </ul>
-
-        <ul class="header-list">
-          <li class="header-contact">
-            <a href="mailto:info@devstudio.com" class="header-mal"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-contact">
-            <a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+          </ul>
+          </header>
+    
     <!--Main-->
     <main>
+      <div class="conteiner">
       <section class="main-section">
         <h1 hidden>Приклади</h1>
-
+        
         <ul class="btn-group">
           <li class="button-item">
             <button type="button" class="main-button">Усі</button>
@@ -68,9 +66,10 @@
         </ul>
 
         <ul class="header-item">
-          <li class="header-list">
+          <div class="box-group">
+          <div class="box"><li class="header-list">
             <a href="./index.html"
-              ><img
+              ><img class="img-box"
                 src="./img/portfolio/img1.jpg"
                 alt="робимо верстку сайтів "
                 width="370"
@@ -80,13 +79,15 @@
               <p class="title-cat">Веб-сайт</p></a
             >
           </li>
-          <li class="header-list">
+        </div>
+          
+          <div class="box"><li class="header-list">
             <a href="./index.html"
-              ><img
+              ><img class="img-box"
                 src="./img/portfolio/img2.jpg"
                 alt="Малюнки"
                 width="370"
-                height="404"
+                height="294"
               />
               <h2 class="title-item">
                 Постер <span lang="en">Orlean vs Golden Star</span>
@@ -94,9 +95,11 @@
               <p class="title-cat">Дизайн</p></a
             >
           </li>
-          <li class="header-list">
+        </div>
+          
+          <div class="box"><li class="header-list">
             <a href="./index.html"
-              ><img
+              ><img class="img-box"
                 src="./img/portfolio/img3.jpg"
                 alt="додаток"
                 width="370"
@@ -108,21 +111,26 @@
               <p class="title-cat">Додаток</p></a
             >
           </li>
-          <li class="header-list">
+        </div></div>
+
+        <div class="box-group">  
+          <div class="box"><li class="header-list">
             <a href="./index.html"
-              ><img
+              ><img class="img-box"
                 src="./img/portfolio/img4.jpg"
                 alt="просування"
                 width="370"
-                height="404"
+                height="294"
               />
               <h2 class="title-item">Проєкт <span lang="en">Prime</span></h2>
               <p class="title-cat">Маркетинг</p></a
             >
           </li>
-          <li class="header-list">
+        </div>
+          
+          <div class="box"><li class="header-list">
             <a href="./index.html"
-              ><img
+              ><img class="img-box"
                 src="./img/portfolio/img5.jpg"
                 alt="Маркетинг"
                 width="370"
@@ -132,9 +140,11 @@
               <p class="title-cat">Додаток</p></a
             >
           </li>
-          <li class="header-list">
+        </div>
+          
+          <div class="box"> <li class="header-list">
             <a href="./index.html"
-              ><img
+              ><img class="img-box"
                 src="./img/portfolio/img6.jpg"
                 alt="Сайт"
                 width="370"
@@ -144,9 +154,12 @@
               <p class="title-cat">Веб-сайт</p></a
             >
           </li>
-          <li class="header-list">
+        </div></div>
+
+        <div class="box-group"> 
+          <div class="box"><li class="header-list">
             <a href="./index.html"
-              ><img
+              ><img class="img-box"
                 src="./img/portfolio/img7.jpg"
                 alt="Книга"
                 width="370"
@@ -158,9 +171,11 @@
               <p class="title-cat">Дизайн</p></a
             >
           </li>
-          <li class="header-list">
+        </div>
+          
+          <div class="box"><li class="header-list">
             <a href="./index.html"
-              ><img
+              ><img class="img-box"
                 src="./img/portfolio/img8.jpg"
                 alt="Проєкт"
                 width="370"
@@ -170,9 +185,11 @@
               <p class="title-cat">Маркетинг</p></a
             >
           </li>
-          <li class="header-list">
+        </div>
+          
+          <div class="box"> <li class="header-list">
             <a href="./index.html"
-              ><img
+              ><img class="img-box"
                 src="./img/portfolio/img9.jpg"
                 alt="додаток"
                 width="370"
@@ -182,11 +199,15 @@
               <p class="title-cat">Додаток</p></a
             >
           </li>
+        </div></div>
+         
         </ul>
       </section>
+      </div>
     </main>
-    <footer class="footer">
-      <!--Contact information-->
+  
+  <footer class="footer">
+    <div class="conteiner"> 
       <a href="./index.html" class="type-footer">
         Web<span class="color-footer">Studio</span></a
       >
@@ -201,16 +222,17 @@
               >м.Київ,пр-тЛесіУкраїнки,26</a
             >
           </li>
-          <li class="footer-item">
+          <div class="info"><li class="footer-item">
             <a href="mailto:info@devstudio.com" class="footer-mal"
               >info@devstudio.com</a
             >
-          </li>
+          </li></div>
           <li class="footer-item">
             <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
-    </footer>
+    </div>
+  </footer>
   </body>
 </html>
