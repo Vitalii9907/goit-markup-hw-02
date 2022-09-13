@@ -38,13 +38,15 @@ width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
-
+display: flex;
+align-items: center;
+border: 1px solid var(--solid);
 }
 
   .header {
       display: flex;
       align-items: center; 
-      border: 1px solid var(--solid);
+     
   }
   .header-list {
     padding: 0;
@@ -125,7 +127,7 @@ margin: 0 auto;
   }
 
 
-.main-button:hover {
+.main-buttonp:hover {
   background-color: var(--primary-color);
   transition: all 0.4s ease;
   text-align: center;
@@ -144,8 +146,8 @@ margin: 0 auto;
   display: flex;
   gap: 8px;
   justify-content: center;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  
+  margin-bottom:50px ;
   
 }
 
@@ -155,7 +157,7 @@ margin: 0 auto;
 
 
 
-.main-button{
+.main-buttonp{
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -169,31 +171,21 @@ padding: 6px 22px;
 
 }
 
-.conteiner{
+.conteiner-portfolio{
   width: 1200px;
   margin: 0 auto;
 }
 
-.box-group{
- width: 1200px;
- margin: 0 auto;
- padding-left: 15px;
- padding-right: 15px;
- 
-}
 
 
-.main-section{
+.main-portfolio{
   background-color: var(--whole-white-color);
   padding-top: 90px;
   padding-bottom: 34px;
   
 }
 
-.photo-section{
 
-  margin-bottom: 98px;
-}
 
 .button-item{
   font-style: normal;
@@ -202,14 +194,20 @@ color:var(--item-color);
 cursor: pointer;
 }
 
-.header-content{
+.header-content {
   margin: 0 auto;
-  display: flex;
  margin-bottom: 30px;
+ list-style: none;
+ text-decoration: none;
+ gap: 30px;
+ text-decoration: none;
  
- 
-  
 }
+
+.header-content a{
+  text-decoration: none;
+}
+
 
 .border{
   background: var(--whole-white-color);
@@ -222,8 +220,8 @@ border-top: none;
 
 .header-first {
   
-  display: flex;
  flex-wrap: wrap;
+ display: flex;
  
 }
 .header-content:nth-child(3n){
@@ -234,16 +232,6 @@ border-top: none;
   margin-bottom: 0;
 }
 
-.header-first a{
-  text-decoration: none;
-}
-.header-second a{
-  text-decoration: none;
-}
-
-.header-third a{
-  text-decoration: none;
-}
 
 .title-item {
 font-weight: 700;
@@ -283,26 +271,15 @@ letter-spacing: 0.06em;
   background-color: var(--background-color);
   padding-bottom: 60px;
   padding-top: 60px;
-  padding-left: 15px;
-  padding-right: 15px;
+ 
 }
 .color-footer {
   color:var(--whole-white-color);
   
 }
-.type-footer {
-  color: var(--primary-color);
-  list-style: none;
-  text-decoration: none;
-  font-family: "Ralewey",sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  padding-top: 1px;
+
   
-  
-}
+
 .footer-list {
   font-style: normal;
   list-style: none;
@@ -312,7 +289,7 @@ padding-top: 20px;
 }
 .footer-item {
   color: var(--fotter-color);
-  padding-top :9px;
+  margin-bottom :9px;
 }
 
 .footer-item a:hover {
