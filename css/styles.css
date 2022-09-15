@@ -255,8 +255,6 @@ color: var(--whole-white-color);
 
 
 .hero {
-  padding: 0;
-  margin: 0;
   color: var(--item-color);
   font-weight: 700;
   font-size: 36px;
@@ -274,14 +272,11 @@ color: var(--whole-white-color);
 .our-works{
 display: flex;
  gap: 30px;
- padding: 0;
- margin: 0;
+ 
 }
 
 .hero-dscrpt{
-  padding: 0;
-  margin: 0;
-  display: flex;
+    display: flex;
   gap: 30px;
 }
 .hero-section {
@@ -307,8 +302,7 @@ display: flex;
 
 
 .hero-title {
-  
-  line-height: 1.2;
+    line-height: 1.2;
   color: var(--secondary-color);
   text-align: center;
   padding-bottom: 30px;
@@ -322,8 +316,6 @@ display: flex;
 .section-list {
   text-decoration: none;
   display: flex;
- padding: 0;
- margin: 0;
   gap: 30px;
 
   
