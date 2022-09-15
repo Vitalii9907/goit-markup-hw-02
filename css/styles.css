@@ -51,8 +51,6 @@ width: 1200px;
 margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
-
- 
 }
 
 .conteiner.rulles{
@@ -184,23 +182,14 @@ margin-top: 30px;
 }
 
 
-.btn-text{
-font-weight: 700;
-font-size: 16px;
-line-height: 1.9;
-letter-spacing: 0.06em;
-color: var(--whole-white-color);
-}
+
 
 .main-section {
   background-color: var(--mainsection-clor);
   color:var(--whole-white-color);
   text-align: center;
   padding-top: 200px;
-  padding-bottom: 200px;
-
- 
-  
+  padding-bottom: 200px;  
 }
 
 .main-title {
